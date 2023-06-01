@@ -6,25 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="script.js"> -->
 </head>
 <body>
+    <script>
+    
+        function myFunction() 
+        {
+          document.getElementById("demo").style.fontSize = "25px";
+          document.getElementById("demo").style.color = "red";
+          document.getElementById("demo").style.backgroundColor = "yellow" ;       
+        }
+        </script>
     <h1>Awesome Header</h1>
     <h2>Smaller awesome header</h2>
     <h3>Even smaller header</h3>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta qui quod saepe, minima omnis voluptates necessitatibus! Eveniet culpa sapiente nihil quisquam deleniti impedit, consequuntur molestiae.</p>
+    <p id ="demo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta qui quod saepe, minima omnis voluptates necessitatibus! Eveniet culpa sapiente nihil quisquam deleniti impedit, consequuntur molestiae.</p>
 
-     <img src="pic1.jpg" alt="shekil1">
+     <img src="pic1.jpg" alt="shekil1" >
 
      <p class = "menu">Links Menu</p>
      
-     <ul >
+     <ul  >
         <li><a href="http://Youtube.com">Youtube</a></li>
         <li><a href="http://Google.com">Google</a></li>
         <li><a href="http://Yandex.com">Yandex</a></li>
      </ul>
     
 
+     <!-- <p id="demo"></p> -->
+     <button type="button" onclick="myFunction()">Click Me!</button>
 
+
+     <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+      </pre>
+    
 </body>
 </html>

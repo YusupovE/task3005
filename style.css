@@ -17,7 +17,7 @@ h2, h3 {
 
 p {
   color: #000;
-  font-size: 25px;
+  font-size:15px;
   font-weight: bold; 
  
 }
@@ -42,3 +42,5 @@ img {
       list-style-position: inside;
       padding: 5px;
   }
+
+  
